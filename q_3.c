@@ -9,6 +9,7 @@ earth. Consider g = 9.8m/s2.*/
  float force (float x ){
     float f  = x * 9.8;
     printf("Force on body of mass %.2f is : %.2f m/s^2",x,f);
+    return f;
  }
  int main() {
      float m ;
